@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'HeadingNow';
+  src: url('fonts/headingnow06.ttf');
+}
+ 
+@font-face {
+  font-family: 'Typewriter';
+  src: url('fonts/typewriter.ttf');
+}
+ 
+body {
+  font-family: 'Typewriter', monospace;
+  background-color: #000000;
+  margin: 0 12px;
+}
+ 
+h1, h2, h3 {
+  font-family: 'HeadingNow', sans-serif;
+}
+ 
+header {
+  background-color: #000000;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 10px solid #f5b921;
+}
+ 
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+nav li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold underline;
+}
+ 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+ 
+.portada {
+  position: relative;
+}
+ 
+.portada img {
+  width: 100%;
+  display: block;
+  border-bottom: 10px solid #000000;
+}
+ 
+.portada h1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #f5b921;
+  font-size: 450px;
+  margin: 40px 0 0 0;
+}
+ 
+.sinopsis {
+  display: flex;
+  background-color: #A37B01;
+  padding: 10px;
+}
+ 
+.sinopsis img {
+  width: 40%;
+  height: 100%;
+  margin-right: 10px;
+  border: 5px solid #000000;
+}
+ 
+.sinopsis p {
+  font-size: 30px;
+  width: 65%;
+  margin: 5px;
+  color: #000000;
+}
+ 
+.elenco {
+  background-color: #333333;
+  padding: 0 0 20px 0;
+}
+
+.elenco h2 {
+  font-family: 'Typewriter', monospace;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  background-color: #000000;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  border-top: 5px solid #333333; 
+}
+
+.equipo {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.actores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.persona {
+  width: 20%;
+  margin: 1%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.persona p {
+  color: #f5b921;
+  margin: 0 0 5px 0;
+  font-size: 30px;
+}
+
+.actores .persona p {
+  min-height: 110px;
+}
+
+.persona img {
+  width: 100%;
+  border: 2px solid #f5b921;
+  margin: auto 0;
+}
+ 
+.rating {
+  background-color: #f5b921;
+  padding: 25px;
+  padding-bottom: 120px;
+}
+ 
+.rating h2 {
+  font-family: 'Typewriter', monospace;
+  color: #000000;
+  font-size: 50px;
+  margin: 0 0 15px 0;
+}
+ 
+.rating p {
+  color: #000000;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.rating a {
+  color: #000000;
+  text-decoration: underline;
+}
+ 
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  border-top: 20px solid #222222;
+}
+ 
+footer h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+ 
+footer p {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+/* aca termina la pagina de inicio */
+
+  .intro {
+  background: linear-gradient(#71580C, #000000);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10%;
+}
+
+.intro h1 {
+  font-size: 450px;
+  margin: 0 0 10px 0;
+}
+
+.intro p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.bloque {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.bloque h2 {
+  font-family: 'Typewriter', monospace;
+  text-align: center;
+  font-size: 36px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fila img {
+  width: 38%;
+}
+
+.texto {
+  width: 60%;
+  background-color: #333333;
+  padding: 10px;
+}
+
+.texto p {
+  font-size: 28px;
+  margin: 10px 10px 20px 0;
+}
+
+/* aca termina la subpagina de analisis */
+
+.cabecera {
+  position: relative;
+}
+
+.cabecera img {
+  width: 100%;
+  display: block;
+}
+
+.cabecera h1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 450px;
+  margin: 60px 0 0 0;}
+
+.galeria {
+  background-color: #000000;
+}
+
+.fila-galeria {
+  display: flex;
+}
+
+.fila-galeria img {
+  display: block;
+  object-fit: cover;
+}
+
+.w100 { width: 100%; }
+.w65 { width: 65%; }
+.w57 { width: 57%; }
+.w51-2 { width: 51.2%; }
+.w48-8 { width: 48.8%; }
+.w43 { width: 43%; }
+.w35 { width: 35%; }
